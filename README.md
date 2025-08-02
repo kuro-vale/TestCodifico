@@ -32,7 +32,7 @@ You will need the following installed on your system:
 
 #### Backend (ASP.NET)
 
-1. Navigate to the backend's project directory.
+1. Navigate to the backend's project directory. `cd /TestCodifico.Api`
 2. Restore dependencies:
    ```bash
    dotnet restore
@@ -53,7 +53,7 @@ You will need the following installed on your system:
 
 #### Client (Angular)
 
-1. Navigate to the Angular client directory.
+1. Navigate to the Angular client directory. `cd TestCodifico.Clients/SPA`
 2. Install dependencies:
    ```bash
    npm install
@@ -67,7 +67,7 @@ You will need the following installed on your system:
 
 #### D3 Visualization HTML Client
 
-1. Locate the standalone HTML file in the project's directory.
+1. Locate the standalone HTML file in the project's directory. `cd TestCodifico.Clients/D3App`
 2. Open the file directly in a modern web browser (e.g., Chrome, Firefox).
 
 ---
