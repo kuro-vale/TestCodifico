@@ -1,8 +1,9 @@
 namespace TestCodifico.Interface.Models;
 
-public record OrderDetail(
+public record OrderDetails(
     int ProductId,
     double UnitPrice,
     int Qty,
-    double Discount
-    );
+    double Discount,
+    int? OrderId
+);
